@@ -8,5 +8,9 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions"
   ],
-  "framework": "@storybook/react"
+  "framework": "@storybook/react",
+  features: {
+    storyStoreV7: true,
+    previewMdx2: true
+  },
 }
